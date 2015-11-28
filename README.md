@@ -5,9 +5,14 @@ font-awesome cli
 
 ```
 $ fa github
-% #=> "\uf09b"
+ #=> "\uf09b"
 $ fa twitter | pbcopy
 # paste to some editor
+```
+
+```
+$ fa -list
+#=> print all id
 ```
 
 # Install
