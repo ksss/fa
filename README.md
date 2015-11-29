@@ -11,7 +11,7 @@ $ fa twitter | pbcopy
 ```
 
 ```
-$ fa -list
+$ fa --list
 #=> print all id
 ```
 
@@ -20,6 +20,6 @@ $ fa -list
 ```
 git clone https://github.com/ksss/fa
 cd fa
-go build cmd/fa/fa.go
-mv fa ${GOPATH}/bin
+make
+cp fa ~/bin
 ```
