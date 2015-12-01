@@ -23,3 +23,7 @@ cd fa
 make
 cp fa ~/bin
 ```
+
+# LICENSE
+
+MIT
