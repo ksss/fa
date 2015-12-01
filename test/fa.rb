@@ -12,7 +12,7 @@
     if $?.to_i == status
       print " \e[32mok\e[m\n"
     else
-      print " \e[32mfail\e[m\n"
+      print " \e[31mfail\e[m\n"
     end
   end
 end
